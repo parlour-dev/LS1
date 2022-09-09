@@ -85,13 +85,7 @@ export const Footer = ({ data, name = "" }) => {
                     />
                   </a>
                 )}
-                {data.social.github && (
-                  <a href={data.social.github} target="_blank" className="mx-2">
-                    <FaGithub
-                      className={`h-6 w-auto text-white hover:text-${theme.color}-500`}
-                    />
-                  </a>
-                )}
+        
               </div>
             </div>
           </div>
